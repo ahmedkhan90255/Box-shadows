@@ -1,4 +1,27 @@
 .heading1 {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: inline;
+    margin-left: 1rem;
+}
+#container1 {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    text-align: center;
+    display: inline-flex;
+    position: relative;
+    top: 60px;
+    left: 40%;
+}
+.hidden {
+    visibility: hidden;
+}
+.none {
+    display: none;
+}
+#container2 {
+    border-style: solid;
+    border-color: blue;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; 
 }
